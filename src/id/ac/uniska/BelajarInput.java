@@ -15,6 +15,9 @@ public class BelajarInput {
 
         System.out.println("Nama Lengkap Anda Adalah "+namaLengkap);
 
+        JOptionPane.showMessageDialog(
+                null, "Halo "+namaLengkap, "Ini Judul", JOptionPane.WARNING_MESSAGE);
+
     }
 
 }
